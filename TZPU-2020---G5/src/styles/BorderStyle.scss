@@ -1,0 +1,23 @@
+.frame {
+  padding: 0;
+  border: solid 30px;
+  border-bottom-color: #9D7E68;
+  border-left-color: #7E6553;
+  border-radius: 2px;
+  border-right-color: #7E6553;
+  border-top-color: #9D7E68;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  &:before {
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+    position: absolute;
+  }
+  &:after {
+    border-radius:2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content: "";
+    position: absolute;
+  }
+}

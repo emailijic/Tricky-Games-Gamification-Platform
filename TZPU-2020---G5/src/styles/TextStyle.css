@@ -1,0 +1,29 @@
+.title {
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 70px;
+  letter-spacing: -0.4px;
+  word-spacing: 1px;
+  color: #f2feff;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+.image-grey {
+  display: block;
+  -webkit-filter: grayscale(50%);
+}
+
+.image-container:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-position: top right;
+}
